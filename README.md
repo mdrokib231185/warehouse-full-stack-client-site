@@ -19,7 +19,11 @@ I Do This website
 7. 1 social sign in (googleSignIn)
 8. requireAuth and protected router setup
 9. Error handeling and UI show 
+
 10.heroku deploy
+
 11.mongodb to insert data
+
 12.find data mongo db and show ui
+
 13. extra section add 
