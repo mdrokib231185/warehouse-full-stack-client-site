@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Social = () => {
   const navigate = useNavigate()
-  const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+  const [signInWithGoogle, user] = useSignInWithGoogle(auth);
 
   if (user) {
     navigate('/home')
