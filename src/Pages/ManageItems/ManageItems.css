@@ -1,0 +1,13 @@
+.inventory-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 40px;
+}
+.inventroy{
+      border: 1px solid rgba(0, 0, 0, 0.334);
+      border-radius: 10px;
+      padding-left: 10px;
+      
+      
+      
+}

@@ -1,0 +1,43 @@
+.test-img{
+      height: 500px;
+      width: 500px;
+}
+.OurDealer-text{
+      color: rgb(113, 226, 14);
+      font-size: 50px;
+}
+.header-title{
+      color: rgb(0, 255, 13);
+}
+
+.happy-text1{
+      color: rgb(49, 49, 213);
+}
+.dealers{
+      color: orangered;
+}
+.title-text{
+      color: orangered;
+}
+.details{
+      color: rgb(214, 178, 17);
+      font-size: 60px;
+}
+.ourDealer-container{
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      margin-top: 100px;
+
+}
+@media only screen and (max-width: 765px) {
+.ourDealer-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+}      
+}
+@media only screen and (min-width: 776px) and (max-width: 984px) {
+.ourDealer-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+}      
+}

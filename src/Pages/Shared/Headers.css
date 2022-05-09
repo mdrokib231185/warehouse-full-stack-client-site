@@ -1,0 +1,22 @@
+.header-color{
+      background-color:rgb(24, 181, 213);
+      color: rgb(241, 241, 241);
+      font-size: 20px;
+}
+.header{
+      font-size: 30px;
+      color: rgb(0, 244, 53);
+     
+}
+.all-btn{
+      display: flex;
+
+}
+
+
+.btn-signOut {
+    background-color: #161518;
+    border-radius: 10px;
+    color: aqua;
+    margin-top: 10px;
+}
