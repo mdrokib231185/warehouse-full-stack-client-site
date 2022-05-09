@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div>
-      {/* <Banner></Banner> */}
+      <Banner></Banner>
       <div className="container">
         <h1 className="text-center">This is inventory</h1>
         <div id="inventory" className="inventory-container">
